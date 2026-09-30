@@ -1,0 +1,77 @@
+.navbar {
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 15px;
+    height: 60px;
+    width: 90%;
+    margin: 0 55px 0 55px;
+    box-shadow: #000 0 0 50px ;
+}
+
+.navbar li a:hover{
+    background: #8B0000;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background-size: 20px;
+    border: solid #8B0000 15px;
+    border-radius: 40px;
+}
+
+ul {
+    padding: 15px;
+    display: flex;
+    gap: 75px;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.dropdown-menu  {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.dropdown-menu a {
+    background: rgba(255, 0, 0, 0.76);
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    background-color: #8B0000;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    font-family: fantasy;
+}
+
+h4 {
+    text-align: center;
+    font-size: 35px;
+    font-family: fantasy;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.card-pontos {
+    background: #fff;
+    box-sizing: border-box;
+    width: 500px;
+    height: 520px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.card-golpes-gi {
+    background: black;
+    color: #fff;
+    box-sizing: border-box;
+    width: 500px;
+    height: 350px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.card-golpes-no-gi {
+    background: blue;
+    box-sizing: border-box;
+    width: 500px;
+    height: 420px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.cards {
+    display: flex;
+    padding: 10px;
+    margin: 100px;
+}
